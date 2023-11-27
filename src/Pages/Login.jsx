@@ -71,11 +71,11 @@ const Login = () => {
   const handleLogin = (e) => {
     e.preventDefault();
     axios
-      .get(`http://localhost:8001/users?email=${email}`)
+      .get(`http://localhost:8001/posts?email=${email}`)
       .then((res) => {
         if (res.data.length > 0) {
           axios
-            .get(`http://localhost:8001/users?pass=${pass}`)
+            .get(`http://localhost:8001/posts?pass=${pass}`)
             .then((res) => {
               if (res.data.length > 0) {
                 alert('Login successful');
