@@ -13,6 +13,7 @@
     background: white;
     margin: auto;
     padding: 40px 60px;
+    box-shadow: 20px 18px 25px rgba(0, 0, 0, 0.1);
 }
 .login-container h1
 {
@@ -40,9 +41,10 @@
     color: #5c5c5c;
     font-size: 18px;
     transition: border-color 0.3s, background-color 0.3s;
+    box-shadow: 10px 11px 15px rgba(0, 0, 0, 0.1);
 }
 .login-fields input:focus{
-    border-color: black;
+    border-color: rgb(176, 174, 174);
     background-color: white;
 }
 .login-container button{
@@ -55,7 +57,8 @@
     border: none;
     font-size: 24px;
     font-weight: 500;
-    cursor:pointer
+    cursor:pointer;
+    box-shadow: 10px 11px 15px rgba(0, 0, 0, 0.1);
 }
 .login-login{
     margin-top: 20px;
